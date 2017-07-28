@@ -3,7 +3,7 @@ package barayuda.com.movieapp.Entity;
 import com.orm.SugarRecord;
 
 /**
- * Created by barayuda on 5/20/2017.
+ * Created by barayuda on 7/20/2017.
  */
 public class Favorite extends SugarRecord {
     private int movieId;

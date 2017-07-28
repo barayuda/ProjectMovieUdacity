@@ -1,7 +1,7 @@
 package barayuda.com.movieapp;
 
 /**
- * Created by barayuda on 5/20/2017.
+ * Created by barayuda on 7/20/2017.
  */
 public class Movie {
     private String poster_path;

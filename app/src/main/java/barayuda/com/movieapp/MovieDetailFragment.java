@@ -44,7 +44,7 @@ import barayuda.com.movieapp.Entity.Favorite;
 import barayuda.com.movieapp.Entity.Review;
 
 /**
- * Created by barayuda on 5/20/2017.
+ * Created by barayuda on 7/20/2017.
  */
 
 public class MovieDetailFragment extends Fragment {

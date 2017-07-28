@@ -36,7 +36,7 @@ import barayuda.com.movieapp.Adapter.GridViewAdapter;
 import barayuda.com.movieapp.Entity.Favorite;
 
 /**
- * Created by barayuda on 5/20/2017.
+ * Created by barayuda on 7/20/2017.
  */
 
 public class MainActivity extends AppCompatActivity {

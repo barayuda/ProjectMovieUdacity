@@ -18,7 +18,7 @@ import barayuda.com.movieapp.Movie;
 import barayuda.com.movieapp.R;
 
 /**
- * Created by barayuda on 5/20/2017.
+ * Created by barayuda on 7/20/2017.
  */
 public class GridViewAdapter extends BaseAdapter {
     private final Context context;

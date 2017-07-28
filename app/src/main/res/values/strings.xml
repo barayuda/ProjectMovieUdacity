@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Movie App S1</string>
+    <string name="app_name">Movie App S2</string>
     <string name="action_settings">Settings</string>
     <string name="action_popular">Popular</string>
     <string name="action_highest_rate">Highest Rate</string>
@@ -12,7 +12,7 @@
     <string name="review_title">Review:</string>
     <string name="trailer_title">Trailer:</string>
     <string name="about_title">I Gede Bara Yuda Gautama</string>
-    <string name="about_iak">Project Movie Stage 1</string>
+    <string name="about_iak">Project Movie Stage 2</string>
     <string name="about_location">Denpasar, Bali</string>
     <string name="img_background_description">Description Image</string>
     <string name="title_movieitem_list">Movie Items</string>
