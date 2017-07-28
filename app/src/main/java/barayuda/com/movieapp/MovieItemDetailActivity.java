@@ -12,6 +12,7 @@ import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
 import android.widget.ImageView;
 
+import com.orm.SugarDb;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -42,6 +43,9 @@ public class MovieItemDetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_movieitem_detail);
         Toolbar toolbar = (Toolbar) findViewById(R.id.detail_toolbar);
         setSupportActionBar(toolbar);
+
+        SugarDb db = new SugarDb(this);
+        db.onCreate(db.getDB());
 
         final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

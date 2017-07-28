@@ -17,6 +17,8 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.Toast;
 
+import com.orm.SugarDb;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -65,6 +67,9 @@ public class MovieItemListActivity extends AppCompatActivity {
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         progressDialog = new ProgressDialog(MovieItemListActivity.this);
+
+        SugarDb db = new SugarDb(this);
+        db.onCreate(db.getDB());
 
         setSupportActionBar(toolbar);
         if (getSupportActionBar() != null) {
